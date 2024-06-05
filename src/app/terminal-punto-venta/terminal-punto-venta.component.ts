@@ -655,7 +655,7 @@ export class TerminalPuntoVentaComponent implements OnInit, AfterViewInit {
         if (cantidad > 0) {
             this.carShop.push(
                 {
-                    id: 255,
+                    id: 1,
                     itemName: 'Impresiones',
                     branch: 'impresiones',
                     quantityAvailable: 1000,
@@ -867,7 +867,7 @@ export class TerminalPuntoVentaComponent implements OnInit, AfterViewInit {
             title: "PAGOS POR TRANSFERENCIA",
             html: `
                     <h2>BANORTE</h2>  
-                    <h1>072441012149331668</h1>
+                    <h1>-</h1>
                     <h3>JUAN ANGEL ORTIZ CONTRERAS</H3>
                 `,
         });
